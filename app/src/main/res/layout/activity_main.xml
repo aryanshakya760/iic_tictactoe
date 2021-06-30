@@ -52,7 +52,7 @@
                 android:id="@+id/a1"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginBottom="10sp"
+                android:layout_marginBottom="1sp"
                 android:layout_weight="1"
                 android:onClick="playerTap"
                 android:tag="0" />
@@ -61,7 +61,7 @@
                 android:id="@+id/a2"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginBottom="10sp"
+                android:layout_marginBottom="1sp"
                 android:layout_weight="1"
                 android:onClick="playerTap"
                 android:tag="1" />
@@ -70,7 +70,7 @@
                 android:id="@+id/a3"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginBottom="10sp"
+                android:layout_marginBottom="1sp"
                 android:layout_weight="1"
                 android:onClick="playerTap"
                 android:tag="2" />
@@ -87,7 +87,7 @@
                 android:id="@+id/a4"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginBottom="10sp"
+                android:layout_marginBottom="1sp"
                 android:layout_weight="1"
                 android:onClick="playerTap"
                 android:tag="3" />
@@ -96,7 +96,7 @@
                 android:id="@+id/a5"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginBottom="10sp"
+                android:layout_marginBottom="1sp"
                 android:layout_weight="1"
                 android:onClick="playerTap"
                 android:tag="4" />
@@ -105,7 +105,7 @@
                 android:id="@+id/a6"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginBottom="10sp"
+                android:layout_marginBottom="1sp"
                 android:layout_weight="1"
                 android:onClick="playerTap"
                 android:tag="5" />
@@ -121,7 +121,7 @@
                 android:id="@+id/a7"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginTop="35sp"
+                android:layout_marginTop="25sp"
                 android:layout_weight="1"
                 android:onClick="playerTap"
                 android:tag="6" />
@@ -130,7 +130,7 @@
                 android:id="@+id/a8"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginTop="35sp"
+                android:layout_marginTop="25sp"
                 android:layout_weight="1"
                 android:onClick="playerTap"
                 android:tag="7" />
@@ -139,12 +139,23 @@
                 android:id="@+id/a9"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginTop="35sp"
+                android:layout_marginTop="25sp"
                 android:layout_weight="1"
                 android:onClick="playerTap"
                 android:tag="8" />
         </LinearLayout>
 
     </LinearLayout>
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25sp"
+        android:text="@string/status"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
